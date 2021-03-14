@@ -1,9 +1,11 @@
 [
  {
-   "repository": "LineageOS/android_kernel_xiaomi_onclite",
-   "target_path": "kernel/xiaomi/onclite",
-   "branch": "lineage-18.1",
-   "remote": "github"
+   "repository": "android_kernel_xiaomi_onclite",
+   "target_path": "kernel/xiaomi/onclite"
+ },
+ {
+   "repository": "android_vendor_xiaomi_onclite",
+   "target_path": "vendor/xiaomi/onclite"
  },
  {
    "repository": "ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt",
