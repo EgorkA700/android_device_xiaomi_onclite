@@ -14,6 +14,10 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common Arrow stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 720
+DEVICE_MAINTAINER := bibarub
+IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_onclite
