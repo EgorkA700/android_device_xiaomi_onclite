@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
-DEVICE_MAINTAINER := bibarub
+DEVICE_MAINTAINER := realbibarub
 IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
