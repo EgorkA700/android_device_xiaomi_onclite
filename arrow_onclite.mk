@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
-DEVICE_MAINTAINER := realbibarub
+DEVICE_MAINTAINER := truebibarub
 IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
@@ -26,9 +26,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210305.006 7119741 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210405.005 7181113 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
