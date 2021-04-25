@@ -18,7 +18,6 @@ $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-arrow
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
@@ -127,7 +126,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     libgui_vendor \
     libstdc++.vendor \
-    GCamGOPrebuilt
+    Snap
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
