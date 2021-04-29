@@ -127,7 +127,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     libgui_vendor \
     libstdc++.vendor \
-    GCamGOPrebuilt
+    Snap
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \

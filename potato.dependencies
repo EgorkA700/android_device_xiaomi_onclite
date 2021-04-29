@@ -6,10 +6,5 @@
  {
    "repository": "android_vendor_xiaomi_onclite",
    "target_path": "vendor/xiaomi/onclite"
- },
- {
-   "repository": "ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt",
-   "target_path": "packages/apps/GCamGOPrebuilt",
-   "remote": "github"
  }
 ]
