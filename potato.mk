@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common POSP stuff.
 $(call inherit-product, vendor/potato/config/common_full_phone.mk)
+CUSTOM_BUILD_TYPE := ALPHA
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
 
